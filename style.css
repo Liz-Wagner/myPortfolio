@@ -2,3 +2,84 @@
 box-sizing: border-box;
 }
 
+body {
+	font-family: "EB Garamond", Lora, serif;
+}
+
+/*content in header*/
+
+header {
+	text-align: center;
+	background-color: #99c24d;
+	margin: 15px;
+	padding: 2px;	
+}
+
+h3 {
+	color: white;
+	font-size: 40px;
+}
+
+/*content in main*/
+
+.container {
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	align-items: center;
+	align-content: center;
+	margin: 30px;
+}
+
+img {
+	width: 20%;
+	border-bottom-left-radius: 10%;
+}
+
+.text {
+	font-size: 20px;
+	padding: auto;
+	text-align: center;
+	width: 40%;
+	border: double #2e4057;
+}
+
+/*text in container*/
+h1 {
+	letter-spacing: 5px;
+	font-weight: 15px;
+	color: #048BA8;
+}
+
+hr {
+	margin: 20px 0;
+}
+
+/*About Me*/
+h2 {
+	color: #DDFFD9;
+}
+
+.box {
+	text-align: center;
+	padding: 25px;
+	margin: 5%;
+	background-color: #F4D35E;
+}
+
+p, h4 {
+	color: #2E4057;
+}
+
+footer {
+	text-align: center;
+	background-color: #E6BEAE;
+	margin: 5%;
+	padding: 10px;
+}
+
+/* contact me links */
+a:link {color: #2E4057}
+a:visited {color: #048BA8}
+a:hover {color: #DDFFD9}
+a:active {color: #99C24D}
